@@ -1,0 +1,11 @@
+framework module VykViewKit {
+  umbrella header "VykViewKit.h"
+
+  export *
+  module * { export * }
+}
+
+module VykViewKit.Swift {
+    header "VykViewKit-Swift.h"
+    requires objc
+}

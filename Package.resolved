@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "TrackerSDKv2",
+        "repositoryURL": "git@github.com:ChrisKlimpke/TrackerSDKv2.git",
+        "state": {
+          "branch": null,
+          "revision": "37815bad4056838284f7019d677946ef9c93d004",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
