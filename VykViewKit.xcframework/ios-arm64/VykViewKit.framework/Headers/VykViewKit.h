@@ -30,7 +30,8 @@ FOUNDATION_EXPORT @interface ImageRenderer : NSObject
 
 - (void)                  updateImageUsingTrkr: ( vkTracker * _Nonnull ) trkr
                                     forFrameId: (UInt32) frameId
-                          availableObjectCount: (int ) availableObjectsCount;
+                          availableObjectCount: (int ) availableObjectsCount
+                                      viewPort: (CGSize )viewPort;
 
 - (void )setOrientationAngleRadians ;
 - (void )setRotationCamera:(float )newRotationRadians ;
@@ -44,6 +45,10 @@ FOUNDATION_EXPORT @interface ImageRenderer : NSObject
 -(void )TriggerBulkRecord:(UIViewController *_Nonnull)parent button:(UIButton *_Nonnull)sigButton frames:(int )frames;
 
 -(void )setDebugView:(UIView *_Nonnull)view ;
+
+- (UIImage *)convertTexturetoUIImage:(id<MTLTexture> ) texture
+                            jpegData:(NSData **)jpegData
+                    imageOrientation:(UIImageOrientation )imageOrientation;
 
 - (bool )createSharedCVPxBfrToMTLTexture:(CGSize         )size
                            cvPixelFormat:(OSType         )cvPixelFormat

@@ -20,8 +20,11 @@ public protocol vkFootViewDelegate {
   @objc deinit
   @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
   public func VykFeetSendExternalVideoCapture(_ didCaptureVideoFrame: ARKit.ARFrame?) -> Swift.Int
+  public func setShoeDebugMode(enableDebug: Swift.Bool)
+  public func getFeetAvailabilityCounts(noFeet: inout Swift.Int, oneFoot: inout Swift.Int, twoFeet: inout Swift.Int)
   public func testFunction(value: Swift.Bool)
   public func viewLayoutChanged()
+  public func highResSnapShotWithClosure(width: Swift.Int, height: Swift.Int, action: @escaping (UIKit.UIImage?) -> Swift.Void) -> Swift.Bool
   public func loadShoeAsset(urlString: Swift.String?)
   public func setupAssetLoader(viewController: UIKit.UIViewController, destinationPath: Swift.String)
   public func setupFootTracker(initConfig: [Swift.String : Any], accessConfig: [Swift.String : Any], delegate: VykViewKit.vkFootViewDelegate) -> Swift.Bool
@@ -38,9 +41,12 @@ public protocol vkFootViewDelegate {
   @objc public func MTLStreamStopRecording(saveVideo: @escaping (Foundation.URL) -> Swift.Void)
 }
 @objc public class VykingFeetTrackingModel : ObjectiveC.NSObject {
+  public var debugEnabled: Swift.Bool
   public var vykingTracker: TrackerSDKv2.vkTracker?
   public var vykingImageRenderer: VykViewKit.ImageRenderer?
   public var mUIinterfaceOrientation: UIKit.UIInterfaceOrientation
+  public var AvailabilityCounts: [Swift.Int]
+  public func getObjectAvailabilityCounts(noFeet: inout Swift.Int, oneFoot: inout Swift.Int, twoFeet: inout Swift.Int)
   public func setRotationCamera(newCameraRotationRadians: Swift.Float)
   @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
   public init(fromSceneView sceneView: SceneKit.SCNView, usingTracker tracker: TrackerSDKv2.vkTracker, useARKit: Swift.Bool)

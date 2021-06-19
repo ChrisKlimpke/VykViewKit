@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/VykViewKit.h</key>
 		<data>
-		lmWI6T/WD88VGgCgVftHyXPs+C0=
+		f9tGoamv423lzBz7D2axsCUoQcU=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		zmSF13y7lKfM7nBez6J5QyZ+A7k=
+		YVNO8C3HvH9JC9exDnBHo2VpH5U=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		TqFw9MfB7FMXA8xtf8AD/h3MIGQ=
+		l28MNje2t7KeQlzcuc1/fdMU2D4=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		zmSF13y7lKfM7nBez6J5QyZ+A7k=
+		YVNO8C3HvH9JC9exDnBHo2VpH5U=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		TqFw9MfB7FMXA8xtf8AD/h3MIGQ=
+		l28MNje2t7KeQlzcuc1/fdMU2D4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>VykFootView.nib</key>
 		<data>
-		8Iz4vg/xwF6ZeBTH+jmS2Ly+O80=
+		oDKhAzew5wD7gbwXWolKWxl7UgE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -62,7 +62,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uyRZL37QqYZxelBA9oQ9TM5tUMZTG7I5Njrpiwi6QxU=
+			BWaRM0pjx6JExEr60I/TYPy1qAlEvAtfPtcMMU78W2I=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -76,14 +76,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EBFP9CmYaO4Kvw33HHvvuHY71yJfO4G0eT/BIO687yg=
+			JlCHUW7/DiISUIXMnJfA8gIp6X86enudVmaPCEDIeI4=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1eFKV4jIWHOIfYvqMv5RiPkeFJynFOJEdZGoUdDAW4I=
+			xwrX+ozm6CPVMctk3eaCRJJIr7UZZ80gN3cR32KkjBQ=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/arm64.swiftdoc</key>
@@ -97,14 +97,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EBFP9CmYaO4Kvw33HHvvuHY71yJfO4G0eT/BIO687yg=
+			JlCHUW7/DiISUIXMnJfA8gIp6X86enudVmaPCEDIeI4=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1eFKV4jIWHOIfYvqMv5RiPkeFJynFOJEdZGoUdDAW4I=
+			xwrX+ozm6CPVMctk3eaCRJJIr7UZZ80gN3cR32KkjBQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -118,7 +118,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R2hlRGKbMuneR8hiWKAeNIFuqq1YF6EKRD5hhtGlc0k=
+			PH5l0Ym6X++SIuUf+oWCWUgLaNtFqqJo+yoqxpS+n4I=
 			</data>
 		</dict>
 	</dict>
