@@ -39,6 +39,7 @@ public protocol vkFootViewDelegate {
   public func addToCollection(collectionAssetsList: [VykViewKit.CollectionDataGroup], items: [Swift.Int])
   @objc public func MTLStreamStartRecording(videoOutputURLWithPath: Foundation.URL, videoSettings: [Swift.String : Any]?)
   @objc public func MTLStreamStopRecording(saveVideo: @escaping (Foundation.URL) -> Swift.Void)
+  public func getSDKexpiry() -> Foundation.NSDate?
 }
 @objc public class VykingFeetTrackingModel : ObjectiveC.NSObject {
   public var debugEnabled: Swift.Bool

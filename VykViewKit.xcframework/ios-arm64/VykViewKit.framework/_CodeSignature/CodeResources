@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		YVNO8C3HvH9JC9exDnBHo2VpH5U=
+		Bb+m9nTdrwYMCAcH/0YKr4t4/ks=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		l28MNje2t7KeQlzcuc1/fdMU2D4=
+		7+EiWMfxaGl0XngI4MGgfWFDW30=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		YVNO8C3HvH9JC9exDnBHo2VpH5U=
+		Bb+m9nTdrwYMCAcH/0YKr4t4/ks=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		l28MNje2t7KeQlzcuc1/fdMU2D4=
+		7+EiWMfxaGl0XngI4MGgfWFDW30=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>VykFootView.nib</key>
 		<data>
-		oDKhAzew5wD7gbwXWolKWxl7UgE=
+		ybCyB7IUD6X58zYDyv8SPFFb9QY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -76,14 +76,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JlCHUW7/DiISUIXMnJfA8gIp6X86enudVmaPCEDIeI4=
+			Qe9C6Yg2Vl+9GCMKvL9TkQPUdyHj1rzJJKFBEPD1CO4=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xwrX+ozm6CPVMctk3eaCRJJIr7UZZ80gN3cR32KkjBQ=
+			7R3W9b9pc+OLQiX10+ArFeR1Wpb6e5JTAgnV4MI93UU=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/arm64.swiftdoc</key>
@@ -97,14 +97,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JlCHUW7/DiISUIXMnJfA8gIp6X86enudVmaPCEDIeI4=
+			Qe9C6Yg2Vl+9GCMKvL9TkQPUdyHj1rzJJKFBEPD1CO4=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xwrX+ozm6CPVMctk3eaCRJJIr7UZZ80gN3cR32KkjBQ=
+			7R3W9b9pc+OLQiX10+ArFeR1Wpb6e5JTAgnV4MI93UU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -118,7 +118,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PH5l0Ym6X++SIuUf+oWCWUgLaNtFqqJo+yoqxpS+n4I=
+			xnOwiBZmc5lxcmwpGUu89jNWFLXMTYoNkx7zBWmq7aA=
 			</data>
 		</dict>
 	</dict>
