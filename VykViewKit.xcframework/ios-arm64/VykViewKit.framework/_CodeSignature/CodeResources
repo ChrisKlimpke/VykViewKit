@@ -6,39 +6,39 @@
 	<dict>
 		<key>Headers/VykViewKit-Swift.h</key>
 		<data>
-		u/3cny0dud7sv2/TWTAwqcL/NoE=
+		fUBtAoit8GJT1WI6iABc/OGD/OY=
 		</data>
 		<key>Headers/VykViewKit.h</key>
 		<data>
-		f9tGoamv423lzBz7D2axsCUoQcU=
+		6tEUrofG1Wbdq+gmMR1cwWxmAmg=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3baF8JvTeN+e5SwW8cruEmowXBc=
+		CmeHMaVeZOig+xacKRRYNGxkV+A=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		jszs5tnGgmel2LJnZe8rJxleW2Y=
+		ILra/piPtR5SJgmW5GcKn+ESKuw=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		Bb+m9nTdrwYMCAcH/0YKr4t4/ks=
+		DyTvIAPYdpbg9VoXBc19lzJEPQw=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		7+EiWMfxaGl0XngI4MGgfWFDW30=
+		RBz8nFB1BpjVah8kzUQQQIAX8Hc=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		jszs5tnGgmel2LJnZe8rJxleW2Y=
+		ILra/piPtR5SJgmW5GcKn+ESKuw=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		Bb+m9nTdrwYMCAcH/0YKr4t4/ks=
+		DyTvIAPYdpbg9VoXBc19lzJEPQw=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		7+EiWMfxaGl0XngI4MGgfWFDW30=
+		RBz8nFB1BpjVah8kzUQQQIAX8Hc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>VykFootView.nib</key>
 		<data>
-		6SxRmsw5N6Ox5Hqo0ZcJpYw4B6c=
+		YgqC3UMXRKEvV2G6ZKc3X5y7oo0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -55,56 +55,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			v6TPCHM0QirL7M2lpVJExVg8SvuLhgQSBG6P1kSbuRg=
+			1ZgPykj4cAVOzfv/a2BsvdrCkibcUl0RnZf3BwhcxYw=
 			</data>
 		</dict>
 		<key>Headers/VykViewKit.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BWaRM0pjx6JExEr60I/TYPy1qAlEvAtfPtcMMU78W2I=
+			ta4fRwXOfWgOikeC5lDZaEkYw9cdZgj4Q52npxS6cwc=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dSib1rEV/gB4BSiwuoYooMtNxLv4Ktp6AViC0cAD2lI=
+			jX6aWdORPrWFxXlzTu7G6ZV6c5ltnKwXSAB3AW6FCRg=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qe9C6Yg2Vl+9GCMKvL9TkQPUdyHj1rzJJKFBEPD1CO4=
+			m6VdtGVGmqQbtXu+Fpu2C/G58kUl16IGbKfsa+mvLCI=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7R3W9b9pc+OLQiX10+ArFeR1Wpb6e5JTAgnV4MI93UU=
+			r5l3mejWEUbXj6EmbNsaA9sx2l38GSAdlRCHbTcH9XA=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dSib1rEV/gB4BSiwuoYooMtNxLv4Ktp6AViC0cAD2lI=
+			jX6aWdORPrWFxXlzTu7G6ZV6c5ltnKwXSAB3AW6FCRg=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qe9C6Yg2Vl+9GCMKvL9TkQPUdyHj1rzJJKFBEPD1CO4=
+			m6VdtGVGmqQbtXu+Fpu2C/G58kUl16IGbKfsa+mvLCI=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7R3W9b9pc+OLQiX10+ArFeR1Wpb6e5JTAgnV4MI93UU=
+			r5l3mejWEUbXj6EmbNsaA9sx2l38GSAdlRCHbTcH9XA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -118,7 +118,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T0AKLNuDIZPfTuVRb4naytQCQHEB/zR70w/oHiCHGa8=
+			y4fMON+gX3g5SJ8LsfW9OPrnJcsRj9H8JaTbug7LQlk=
 			</data>
 		</dict>
 	</dict>

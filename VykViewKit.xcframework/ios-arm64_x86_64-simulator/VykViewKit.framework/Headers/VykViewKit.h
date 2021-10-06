@@ -24,6 +24,8 @@ FOUNDATION_EXPORT const unsigned char VykViewKitVersionString[];
 
 FOUNDATION_EXPORT @interface ImageRenderer : NSObject
 
+- (void )                    setStaticImageMode:(bool )setOrClear lensFactor:(float )lensFactor;
+
 - (_Nonnull id)              initWithSceneView: (nonnull SCNView *) scnView
                                     lensFactor: (float )lensFactor
                                       useARKit: (bool )useArKit;
