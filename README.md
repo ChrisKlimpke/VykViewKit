@@ -8,3 +8,6 @@ VykViewKit has been designed to vastly simplify the task of integration Vykingâ€
 
 Please refer to the document VykFootViewSDK-2021-10-06.pdf for details on how to use the VykFootView SDK
 Now includes an new method getSDKexpiry
+
+Version 1.0.8 is the VykViewKit built using Xcode12
+
