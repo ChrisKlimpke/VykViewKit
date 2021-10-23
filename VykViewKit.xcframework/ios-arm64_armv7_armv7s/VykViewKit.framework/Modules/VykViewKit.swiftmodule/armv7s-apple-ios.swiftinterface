@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-compiler-version: Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)
 // swift-module-flags: -target armv7s-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name VykViewKit
 import AVFoundation
 import CoreMedia
@@ -20,7 +20,6 @@ public protocol vkFootViewDelegate {
   @objc override dynamic public init(frame: CoreGraphics.CGRect, options: [Swift.String : Any]? = nil)
   @objc deinit
   @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
-  public func VykFeetSendExternalVideoCapture(_ didCaptureVideoFrame: ARKit.ARFrame?) -> Swift.Int
   public func setShoeDebugMode(enableDebug: Swift.Bool)
   public func getFeetAvailabilityCounts(noFeet: inout Swift.Int, oneFoot: inout Swift.Int, twoFeet: inout Swift.Int)
   public func testFunction(value: Swift.Bool)

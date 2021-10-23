@@ -2,7 +2,7 @@
 
 A description of this package.
 
-Version 2021-10-08R2
+Version 2021-10-22R - build without ARKit (Built with Xcode12)
 
 VykViewKit has been designed to vastly simplify the task of integration Vyking’s Foot Tracking technology into a iOS app using Apple’s SceneKit graphics engine.
 

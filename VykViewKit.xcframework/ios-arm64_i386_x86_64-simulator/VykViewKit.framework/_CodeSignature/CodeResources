@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/VykViewKit-Swift.h</key>
 		<data>
-		mOLUPilfF72YueP9/jwKCk0kKco=
+		z+6N8tTQPLydVkNFwJXmZsxdbWU=
 		</data>
 		<key>Headers/VykViewKit.h</key>
 		<data>
@@ -14,79 +14,79 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		uXfFBTdMHE2ix9dHmnFOo58YWMg=
+		zIXzzT8TUYLB56jPQYemaGFcoQw=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		7NotajzO7oswhvaN5mf7plNL0XA=
+		ETZp7V6IEB0O6f1SUa7k7vGAfj4=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		azaBBvlwVmimgtupPaMdGJQ9myQ=
+		Rc/z9JXjV6lnAQoE1FBsYwNy6Co=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		XlykYKYAFSj2HJiLEX1tSKDfLLk=
+		kyH43WMjdfyWkToliN2H03ZFRm8=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		7NotajzO7oswhvaN5mf7plNL0XA=
+		ETZp7V6IEB0O6f1SUa7k7vGAfj4=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		azaBBvlwVmimgtupPaMdGJQ9myQ=
+		Rc/z9JXjV6lnAQoE1FBsYwNy6Co=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		XlykYKYAFSj2HJiLEX1tSKDfLLk=
+		kyH43WMjdfyWkToliN2H03ZFRm8=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
-		GWsrAKtxGF7cxyQKtM3ea2EGzNY=
+		iL2VHZN8OrI9W7krpEjzJ4dnV0s=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		u09s36WswahwZ0p5dRQhpcZVfk8=
+		ufV0vcyIePGR0dYFlFvRqCmmeRw=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Z40S7+Bhk0QC6XD8FKACglMF4r8=
+		ydjBZPKe1E0Bej1WPfM81gR5tjk=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/i386.swiftdoc</key>
 		<data>
-		GWsrAKtxGF7cxyQKtM3ea2EGzNY=
+		iL2VHZN8OrI9W7krpEjzJ4dnV0s=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/i386.swiftinterface</key>
 		<data>
-		u09s36WswahwZ0p5dRQhpcZVfk8=
+		ufV0vcyIePGR0dYFlFvRqCmmeRw=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/i386.swiftmodule</key>
 		<data>
-		Z40S7+Bhk0QC6XD8FKACglMF4r8=
+		ydjBZPKe1E0Bej1WPfM81gR5tjk=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		c+2qFfsxhIJ6e8e5TJEKH/N0z50=
+		GdDQ1in5uVfnKXxeAoyYdi8nuqA=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		RW0VGPDcOU02viwBqoH+d/jVIR8=
+		z01XDH0iSt3O26d53CDu1IeGtVA=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		tIs8gBXvqhvdQ7FAzFXh0d9uPHY=
+		k7ig4LPt/bAscHsINGS4dOtFQrY=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		c+2qFfsxhIJ6e8e5TJEKH/N0z50=
+		GdDQ1in5uVfnKXxeAoyYdi8nuqA=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		RW0VGPDcOU02viwBqoH+d/jVIR8=
+		z01XDH0iSt3O26d53CDu1IeGtVA=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		tIs8gBXvqhvdQ7FAzFXh0d9uPHY=
+		k7ig4LPt/bAscHsINGS4dOtFQrY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>VykFootView.nib</key>
 		<data>
-		d54HVxGEzYeMaDq03c2c+sCZTdM=
+		B4OcFbSPUtpafKSBXRFfaUDtfD0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -103,11 +103,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mOLUPilfF72YueP9/jwKCk0kKco=
+			z+6N8tTQPLydVkNFwJXmZsxdbWU=
 			</data>
 			<key>hash2</key>
 			<data>
-			XnQ+ZeZ1xLRwEZn6zC5ANVF7VY3qboZOf2jT1t864n0=
+			Oz9QnbnQi+nU50KcEyOLP3PkXgwdWO26f9gdhaR8j2c=
 			</data>
 		</dict>
 		<key>Headers/VykViewKit.h</key>
@@ -125,198 +125,198 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7NotajzO7oswhvaN5mf7plNL0XA=
+			ETZp7V6IEB0O6f1SUa7k7vGAfj4=
 			</data>
 			<key>hash2</key>
 			<data>
-			G9enVS6OulUHj0+3NOumDxLDRSb0HNH+6/DZLmLbNQs=
+			mTQF72k/56WF797qmTkmCUHMBVDnASyo71mDkdWQ1ho=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			azaBBvlwVmimgtupPaMdGJQ9myQ=
+			Rc/z9JXjV6lnAQoE1FBsYwNy6Co=
 			</data>
 			<key>hash2</key>
 			<data>
-			20Ngk0tIaJiCxFEk72dm7CNdlAWU4j64g0Tss4rGZOc=
+			ifd1Jn6/abu9BSIHvbvuXs98jjIKHLDhYQ4KD8OVo8M=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XlykYKYAFSj2HJiLEX1tSKDfLLk=
+			kyH43WMjdfyWkToliN2H03ZFRm8=
 			</data>
 			<key>hash2</key>
 			<data>
-			N3HZrX8p+2X/2ImZvmVU1WA2aO5khuz6YBzRXyAOof4=
+			zGqH9EwSV5q8m18vp1xpVjJ24c9UV1XeWxNR4gg4tP0=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7NotajzO7oswhvaN5mf7plNL0XA=
+			ETZp7V6IEB0O6f1SUa7k7vGAfj4=
 			</data>
 			<key>hash2</key>
 			<data>
-			G9enVS6OulUHj0+3NOumDxLDRSb0HNH+6/DZLmLbNQs=
+			mTQF72k/56WF797qmTkmCUHMBVDnASyo71mDkdWQ1ho=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			azaBBvlwVmimgtupPaMdGJQ9myQ=
+			Rc/z9JXjV6lnAQoE1FBsYwNy6Co=
 			</data>
 			<key>hash2</key>
 			<data>
-			20Ngk0tIaJiCxFEk72dm7CNdlAWU4j64g0Tss4rGZOc=
+			ifd1Jn6/abu9BSIHvbvuXs98jjIKHLDhYQ4KD8OVo8M=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XlykYKYAFSj2HJiLEX1tSKDfLLk=
+			kyH43WMjdfyWkToliN2H03ZFRm8=
 			</data>
 			<key>hash2</key>
 			<data>
-			N3HZrX8p+2X/2ImZvmVU1WA2aO5khuz6YBzRXyAOof4=
+			zGqH9EwSV5q8m18vp1xpVjJ24c9UV1XeWxNR4gg4tP0=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GWsrAKtxGF7cxyQKtM3ea2EGzNY=
+			iL2VHZN8OrI9W7krpEjzJ4dnV0s=
 			</data>
 			<key>hash2</key>
 			<data>
-			meqsrX3UGRpcYcmex97FG1BO5oXJpgYXM9oMVlVu0lk=
+			0z7yfPaRPjCsZjEpmvKmxF6swVDSaa5L5pZmsGjV/W4=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			u09s36WswahwZ0p5dRQhpcZVfk8=
+			ufV0vcyIePGR0dYFlFvRqCmmeRw=
 			</data>
 			<key>hash2</key>
 			<data>
-			GYSDMIywb8G9Air8o+H2vKiyI1KD3liN4iANOa7W7uQ=
+			tir7XZE3R7pxu7Kny2rSQYRdaqg5A7N3u4fsBI/+Lvo=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Z40S7+Bhk0QC6XD8FKACglMF4r8=
+			ydjBZPKe1E0Bej1WPfM81gR5tjk=
 			</data>
 			<key>hash2</key>
 			<data>
-			TNCLzW2V6MYdueoj+zJAz4n7QUGsfXYHBodUDkNriPU=
+			GSJoIc0OmUa/Sc4XjnNHaq7TRpUR4GGWwt5B5TukLHY=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GWsrAKtxGF7cxyQKtM3ea2EGzNY=
+			iL2VHZN8OrI9W7krpEjzJ4dnV0s=
 			</data>
 			<key>hash2</key>
 			<data>
-			meqsrX3UGRpcYcmex97FG1BO5oXJpgYXM9oMVlVu0lk=
+			0z7yfPaRPjCsZjEpmvKmxF6swVDSaa5L5pZmsGjV/W4=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/i386.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			u09s36WswahwZ0p5dRQhpcZVfk8=
+			ufV0vcyIePGR0dYFlFvRqCmmeRw=
 			</data>
 			<key>hash2</key>
 			<data>
-			GYSDMIywb8G9Air8o+H2vKiyI1KD3liN4iANOa7W7uQ=
+			tir7XZE3R7pxu7Kny2rSQYRdaqg5A7N3u4fsBI/+Lvo=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Z40S7+Bhk0QC6XD8FKACglMF4r8=
+			ydjBZPKe1E0Bej1WPfM81gR5tjk=
 			</data>
 			<key>hash2</key>
 			<data>
-			TNCLzW2V6MYdueoj+zJAz4n7QUGsfXYHBodUDkNriPU=
+			GSJoIc0OmUa/Sc4XjnNHaq7TRpUR4GGWwt5B5TukLHY=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			c+2qFfsxhIJ6e8e5TJEKH/N0z50=
+			GdDQ1in5uVfnKXxeAoyYdi8nuqA=
 			</data>
 			<key>hash2</key>
 			<data>
-			d3vo0ZqVtu2C5xrp8eyG0yd8sURLHzWiBKjC80kBjo0=
+			L55HLOezyba8rzI7DcfOCApALDeDOlVAo4+9bm4PGSo=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RW0VGPDcOU02viwBqoH+d/jVIR8=
+			z01XDH0iSt3O26d53CDu1IeGtVA=
 			</data>
 			<key>hash2</key>
 			<data>
-			kdgfHIyoVVTi4GuwqocgcWJQ8XS5tTQn+7Rrn8xMzVU=
+			TyEe8TU7s8O77RTFLdvWK8DIpAR4lTqJKrA6WYRRSFc=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tIs8gBXvqhvdQ7FAzFXh0d9uPHY=
+			k7ig4LPt/bAscHsINGS4dOtFQrY=
 			</data>
 			<key>hash2</key>
 			<data>
-			sEkioZf80lnfWhp5uPWapfQjRnxR9irqen9IU6trxgk=
+			9I2nc5dtzYKOL2+Yv5Uos4G1/x6aYh2xuzhSURwC2+8=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			c+2qFfsxhIJ6e8e5TJEKH/N0z50=
+			GdDQ1in5uVfnKXxeAoyYdi8nuqA=
 			</data>
 			<key>hash2</key>
 			<data>
-			d3vo0ZqVtu2C5xrp8eyG0yd8sURLHzWiBKjC80kBjo0=
+			L55HLOezyba8rzI7DcfOCApALDeDOlVAo4+9bm4PGSo=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RW0VGPDcOU02viwBqoH+d/jVIR8=
+			z01XDH0iSt3O26d53CDu1IeGtVA=
 			</data>
 			<key>hash2</key>
 			<data>
-			kdgfHIyoVVTi4GuwqocgcWJQ8XS5tTQn+7Rrn8xMzVU=
+			TyEe8TU7s8O77RTFLdvWK8DIpAR4lTqJKrA6WYRRSFc=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tIs8gBXvqhvdQ7FAzFXh0d9uPHY=
+			k7ig4LPt/bAscHsINGS4dOtFQrY=
 			</data>
 			<key>hash2</key>
 			<data>
-			sEkioZf80lnfWhp5uPWapfQjRnxR9irqen9IU6trxgk=
+			9I2nc5dtzYKOL2+Yv5Uos4G1/x6aYh2xuzhSURwC2+8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -334,11 +334,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			d54HVxGEzYeMaDq03c2c+sCZTdM=
+			B4OcFbSPUtpafKSBXRFfaUDtfD0=
 			</data>
 			<key>hash2</key>
 			<data>
-			0OOzQrWzgErhqZbTBN943Jwe12CScjx6zml47avrRWk=
+			GbxkmKTuAltdvwNiHyEUCUjUcTlWw5X0O9NOmAkev2U=
 			</data>
 		</dict>
 	</dict>
