@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
 // swift-module-flags: -target x86_64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name VykViewKit
 import AVFoundation
 import CoreMedia
@@ -8,39 +8,42 @@ import SceneKit
 import Swift
 import TrackerSDKv2
 @_exported import VykViewKit
+import _Concurrency
 public protocol vkFootViewDelegate {
   func vkReady(good: Swift.Bool)
   func vkShutdown(good: Swift.Bool)
   func vkLoadShoeAssetResponse(urlString: Swift.String, assetsPath: Swift.String?, good: Swift.Bool, message: Swift.String?)
+  func vkFrameUpdate(frameID: Swift.UInt32, leftTransform: simd.simd_float4x4?, rightTransform: simd.simd_float4x4?)
 }
 @objc @_inheritsConvenienceInitializers @available(iOS 11.0, *)
-@IBDesignable public class VykFootView : SceneKit.SCNView, SceneKit.SCNSceneRendererDelegate, TrackerSDKv2.vkTrackerInterface, VykViewKit.vkDownloaderDelegate {
-  @objc override dynamic public init(frame: CoreGraphics.CGRect)
-  @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @objc override dynamic public init(frame: CoreGraphics.CGRect, options: [Swift.String : Any]? = nil)
+@IBDesignable @_Concurrency.MainActor(unsafe) public class VykFootView : SceneKit.SCNView, SceneKit.SCNSceneRendererDelegate, TrackerSDKv2.vkTrackerInterface, VykViewKit.vkDownloaderDelegate {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect, options: [Swift.String : Any]? = nil)
   @objc deinit
   @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
-  public func setShoeDebugMode(enableDebug: Swift.Bool)
-  public func getFeetAvailabilityCounts(noFeet: inout Swift.Int, oneFoot: inout Swift.Int, twoFeet: inout Swift.Int)
-  public func testFunction(value: Swift.Bool)
-  public func viewLayoutChanged()
-  public func PhotoImportWithClosure(fileName: Swift.String, accessConfig: [Swift.String : Any], action: @escaping (UIKit.UIImage?) -> Swift.Void) -> Swift.Bool
-  public func highResSnapShotWithClosure(width: Swift.Int, height: Swift.Int, action: @escaping (UIKit.UIImage?) -> Swift.Void) -> Swift.Bool
-  public func loadShoeAsset(urlString: Swift.String?)
-  public func setupAssetLoader(viewController: UIKit.UIViewController, destinationPath: Swift.String)
-  public func setupFootTracker(initConfig: [Swift.String : Any], accessConfig: [Swift.String : Any], delegate: VykViewKit.vkFootViewDelegate) -> Swift.Bool
-  @objc public func renderer(_ renderer: SceneKit.SCNSceneRenderer, updateAtTime time: Foundation.TimeInterval)
-  public func startFootTracking()
-  public func pauseFootTracking()
-  public func destroyFootTracking()
-  @objc public func vkReady(_ good: Swift.Bool)
-  @objc public func vkShutdown(_ good: Swift.Bool)
-  @objc public func vktEvent(_ tag: TrackerSDKv2.vkTrackerTag, value: Swift.UInt32)
-  public func updateCollection(cData: VykViewKit.CollectionDataGroup?, collectionAssetsList: [VykViewKit.CollectionDataGroup])
-  public func addToCollection(collectionAssetsList: [VykViewKit.CollectionDataGroup], items: [Swift.Int])
-  @objc public func MTLStreamStartRecording(videoOutputURLWithPath: Foundation.URL, videoSettings: [Swift.String : Any]?)
-  @objc public func MTLStreamStopRecording(saveVideo: @escaping (Foundation.URL) -> Swift.Void)
-  public func getSDKexpiry() -> Foundation.NSDate?
+  @_Concurrency.MainActor(unsafe) public func VykFeetSendExternalVideoCapture(_ didCaptureVideoFrame: ARKit.ARFrame?) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) public func setShoeDebugMode(enableDebug: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) public func getFeetAvailabilityCounts(noFeet: inout Swift.Int, oneFoot: inout Swift.Int, twoFeet: inout Swift.Int)
+  @_Concurrency.MainActor(unsafe) public func testFunction(value: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) public func viewLayoutChanged()
+  @_Concurrency.MainActor(unsafe) public func PhotoImportWithClosure(fileName: Swift.String, accessConfig: [Swift.String : Any], action: @escaping (UIKit.UIImage?) -> Swift.Void) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) public func highResSnapShotWithClosure(width: Swift.Int, height: Swift.Int, action: @escaping (UIKit.UIImage?) -> Swift.Void) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) public func loadShoeAsset(urlString: Swift.String?)
+  @_Concurrency.MainActor(unsafe) public func setupAssetLoader(viewController: UIKit.UIViewController, destinationPath: Swift.String)
+  @_Concurrency.MainActor(unsafe) public func setupFootTracker(initConfig: [Swift.String : Any], accessConfig: [Swift.String : Any], delegate: VykViewKit.vkFootViewDelegate) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc public func renderer(_ renderer: SceneKit.SCNSceneRenderer, updateAtTime time: Foundation.TimeInterval)
+  @_Concurrency.MainActor(unsafe) public func startFootTracking()
+  @_Concurrency.MainActor(unsafe) public func pauseFootTracking()
+  @_Concurrency.MainActor(unsafe) public func destroyFootTracking()
+  @_Concurrency.MainActor(unsafe) @objc public func vkReady(_ good: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc public func vkShutdown(_ good: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc public func vktEvent(_ tag: TrackerSDKv2.vkTrackerTag, value: Swift.UInt32)
+  @_Concurrency.MainActor(unsafe) public func updateCollection(cData: VykViewKit.CollectionDataGroup?, collectionAssetsList: [VykViewKit.CollectionDataGroup])
+  @_Concurrency.MainActor(unsafe) public func addToCollection(collectionAssetsList: [VykViewKit.CollectionDataGroup], items: [Swift.Int])
+  @objc @_Concurrency.MainActor(unsafe) public func MTLStreamStartRecording(videoOutputURLWithPath: Foundation.URL, videoSettings: [Swift.String : Any]?)
+  @objc @_Concurrency.MainActor(unsafe) public func MTLStreamStopRecording(saveVideo: @escaping (_ videoURL: Foundation.URL) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public func getSDKexpiry() -> Foundation.NSDate?
 }
 @objc @available(iOS 11.0, *)
 public class VykingFeetTrackingModel : ObjectiveC.NSObject {
@@ -55,23 +58,22 @@ public class VykingFeetTrackingModel : ObjectiveC.NSObject {
   public func setStaticImageMode(setOrClear: Swift.Bool)
   public init(fromSceneView sceneView: SceneKit.SCNView, usingTracker tracker: TrackerSDKv2.vkTracker, useARKit: Swift.Bool)
   @objc deinit
-  @objc override dynamic public init()
 }
 @available(iOS 11.0, *)
-extension VykingFeetTrackingModel {
+extension VykViewKit.VykingFeetTrackingModel {
   public func setReflection(reflected: Swift.Bool)
   public func updateFootNodes()
   public func switchShoes(toPairNamed name: Swift.String)
   public func selectShoePair(named name: Swift.String)
   public func deselectCurrentShoePair()
 }
-@available(iOS 11, OSX 10.13, *)
-extension VykingFeetTrackingModel {
-  public func render(_ renderer: SceneKit.SCNSceneRenderer, updateAtTime time: Foundation.TimeInterval, withFrameId frameId: Swift.UInt32, viewPortSize: CoreGraphics.CGSize)
+@available(iOS 11, macOS 10.13, *)
+extension VykViewKit.VykingFeetTrackingModel {
+  public func render(_ renderer: SceneKit.SCNSceneRenderer, updateAtTime time: Foundation.TimeInterval, withFrameId frameId: Swift.UInt32, viewPortSize: CoreGraphics.CGSize, mVkFootDelegate: VykViewKit.vkFootViewDelegate?)
   public func recordFrameSequence(parent: UIKit.UIViewController, button: UIKit.UIButton, frames: Swift.Int32)
 }
 @available(iOS 11.0, *)
-extension VykingFeetTrackingModel {
+extension VykViewKit.VykingFeetTrackingModel {
   public enum Constants {
     public static let cameraSCNNodeName: Swift.String
     public static let leftFootSCNNodeName: Swift.String
@@ -90,14 +92,14 @@ public enum CollectionState {
   case CompletedLoad
   case Active
   public static func == (a: VykViewKit.CollectionState, b: VykViewKit.CollectionState) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
-  public func hash(into hasher: inout Swift.Hasher)
 }
 public struct FootDataStruct : Swift.Codable {
-  public init(from decoder: Swift.Decoder) throws
   public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers public class CollectionDataGroup {
   public var idxItem: Swift.Int
@@ -119,7 +121,6 @@ public class DownloadManager : ObjectiveC.NSObject {
   public func deleteAssetSet(itemIdx: Swift.Int) -> Swift.Bool
   public func makeNewJsonScene(cAsset: VykViewKit.CollectionDataGroup) -> SceneKit.SCNScene
   public func filePickAssets(pickedUrls: [Foundation.URL])
-  @objc override dynamic public init()
 }
 extension VykViewKit.CollectionState : Swift.Equatable {}
 extension VykViewKit.CollectionState : Swift.Hashable {}
