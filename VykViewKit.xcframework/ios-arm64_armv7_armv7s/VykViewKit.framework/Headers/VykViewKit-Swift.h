@@ -190,6 +190,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import ARKit;
 @import CoreGraphics;
 @import Foundation;
 @import ObjectiveC;
@@ -228,7 +229,7 @@ SWIFT_CLASS("_TtC10VykViewKit15DownloadManager") SWIFT_AVAILABILITY(ios,introduc
 
 IB_DESIGNABLE
 SWIFT_CLASS("_TtC10VykViewKit11VykFootView") SWIFT_AVAILABILITY(ios,introduced=11.0)
-@interface VykFootView : SCNView <SCNSceneRendererDelegate, vkTrackerInterface>
+@interface VykFootView : ARSCNView <ARSCNViewDelegate, vkTrackerInterface>
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame options:(NSDictionary<NSString *, id> * _Nullable)options OBJC_DESIGNATED_INITIALIZER;
@@ -452,6 +453,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import ARKit;
 @import CoreGraphics;
 @import Foundation;
 @import ObjectiveC;
@@ -490,7 +492,7 @@ SWIFT_CLASS("_TtC10VykViewKit15DownloadManager") SWIFT_AVAILABILITY(ios,introduc
 
 IB_DESIGNABLE
 SWIFT_CLASS("_TtC10VykViewKit11VykFootView") SWIFT_AVAILABILITY(ios,introduced=11.0)
-@interface VykFootView : SCNView <SCNSceneRendererDelegate, vkTrackerInterface>
+@interface VykFootView : ARSCNView <ARSCNViewDelegate, vkTrackerInterface>
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame options:(NSDictionary<NSString *, id> * _Nullable)options OBJC_DESIGNATED_INITIALIZER;
@@ -714,6 +716,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import ARKit;
 @import CoreGraphics;
 @import Foundation;
 @import ObjectiveC;
@@ -752,7 +755,7 @@ SWIFT_CLASS("_TtC10VykViewKit15DownloadManager") SWIFT_AVAILABILITY(ios,introduc
 
 IB_DESIGNABLE
 SWIFT_CLASS("_TtC10VykViewKit11VykFootView") SWIFT_AVAILABILITY(ios,introduced=11.0)
-@interface VykFootView : SCNView <SCNSceneRendererDelegate, vkTrackerInterface>
+@interface VykFootView : ARSCNView <ARSCNViewDelegate, vkTrackerInterface>
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame options:(NSDictionary<NSString *, id> * _Nullable)options OBJC_DESIGNATED_INITIALIZER;

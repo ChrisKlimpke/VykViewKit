@@ -16,12 +16,13 @@ public protocol vkFootViewDelegate {
   func vkFrameUpdate(frameID: Swift.UInt32, leftTransform: simd.simd_float4x4?, rightTransform: simd.simd_float4x4?)
 }
 @objc @_inheritsConvenienceInitializers @available(iOS 11.0, *)
-@IBDesignable @_Concurrency.MainActor(unsafe) public class VykFootView : SceneKit.SCNView, SceneKit.SCNSceneRendererDelegate, TrackerSDKv2.vkTrackerInterface, VykViewKit.vkDownloaderDelegate {
+@IBDesignable @_Concurrency.MainActor(unsafe) public class VykFootView : ARKit.ARSCNView, SceneKit.SCNSceneRendererDelegate, TrackerSDKv2.vkTrackerInterface, VykViewKit.vkDownloaderDelegate, ARKit.ARSCNViewDelegate {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect, options: [Swift.String : Any]? = nil)
   @objc deinit
   @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+  @_Concurrency.MainActor(unsafe) public func VykFeetSendExternalVideoCapture(_ didCaptureVideoFrame: ARKit.ARFrame?) -> Swift.Int
   @_Concurrency.MainActor(unsafe) public func setShoeDebugMode(enableDebug: Swift.Bool)
   @_Concurrency.MainActor(unsafe) public func getFeetAvailabilityCounts(noFeet: inout Swift.Int, oneFoot: inout Swift.Int, twoFeet: inout Swift.Int)
   @_Concurrency.MainActor(unsafe) public func testFunction(value: Swift.Bool)
