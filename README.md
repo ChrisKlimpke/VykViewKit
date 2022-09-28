@@ -17,7 +17,7 @@ Version 1.0.12 is the VykViewKit built 2022-09-28R
 
 Version 2.x.x is the ARKit build set
 Version 2.0.3 is the ARKit version of VykViewKit build 2022-06-02AR
-
+Version 2.0.4 is the ARKit version of VykViewKit build 2022-09-28AR
 
 Version 2021-06-01AR (git 2.0.3) and above is the VykViewKit built for arkit support with ARSCNView instead of SCNView
 
