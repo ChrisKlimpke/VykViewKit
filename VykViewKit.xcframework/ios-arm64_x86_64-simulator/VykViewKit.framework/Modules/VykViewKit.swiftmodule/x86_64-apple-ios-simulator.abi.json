@@ -1,0 +1,4651 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VykViewKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "VykViewKit"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMedia",
+        "printedName": "CoreMedia",
+        "declKind": "Import",
+        "moduleName": "VykViewKit"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "VykViewKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "vkFootViewDelegate",
+        "printedName": "vkFootViewDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "vkReady",
+            "printedName": "vkReady(good:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit06vkFootB8DelegateP0D5Ready4goodySb_tF",
+            "mangledName": "$s10VykViewKit06vkFootB8DelegateP0D5Ready4goodySb_tF",
+            "moduleName": "VykViewKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : VykViewKit.vkFootViewDelegate>",
+            "sugared_genericSig": "<Self where Self : VykViewKit.vkFootViewDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "vkShutdown",
+            "printedName": "vkShutdown(good:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit06vkFootB8DelegateP0D8Shutdown4goodySb_tF",
+            "mangledName": "$s10VykViewKit06vkFootB8DelegateP0D8Shutdown4goodySb_tF",
+            "moduleName": "VykViewKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : VykViewKit.vkFootViewDelegate>",
+            "sugared_genericSig": "<Self where Self : VykViewKit.vkFootViewDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "vkLoadShoeAssetResponse",
+            "printedName": "vkLoadShoeAssetResponse(urlString:assetsPath:good:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit06vkFootB8DelegateP0D21LoadShoeAssetResponse9urlString10assetsPath4good7messageySS_SSSgSbAItF",
+            "mangledName": "$s10VykViewKit06vkFootB8DelegateP0D21LoadShoeAssetResponse9urlString10assetsPath4good7messageySS_SSSgSbAItF",
+            "moduleName": "VykViewKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : VykViewKit.vkFootViewDelegate>",
+            "sugared_genericSig": "<Self where Self : VykViewKit.vkFootViewDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "vkFrameUpdate",
+            "printedName": "vkFrameUpdate(frameID:leftTransform:rightTransform:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "simd.simd_float4x4?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "simd_float4x4",
+                    "printedName": "simd.simd_float4x4",
+                    "usr": "c:@SA@simd_float4x4"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "simd.simd_float4x4?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "simd_float4x4",
+                    "printedName": "simd.simd_float4x4",
+                    "usr": "c:@SA@simd_float4x4"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit06vkFootB8DelegateP0D11FrameUpdate7frameID13leftTransform05rightL0ys6UInt32V_So13simd_float4x4aSgALtF",
+            "mangledName": "$s10VykViewKit06vkFootB8DelegateP0D11FrameUpdate7frameID13leftTransform05rightL0ys6UInt32V_So13simd_float4x4aSgALtF",
+            "moduleName": "VykViewKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : VykViewKit.vkFootViewDelegate>",
+            "sugared_genericSig": "<Self where Self : VykViewKit.vkFootViewDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10VykViewKit06vkFootB8DelegateP",
+        "mangledName": "$s10VykViewKit06vkFootB8DelegateP",
+        "moduleName": "VykViewKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VykFootView",
+        "printedName": "VykFootView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VykFootView",
+                "printedName": "VykViewKit.VykFootView",
+                "usr": "c:@M@VykViewKit@objc(cs)VykFootView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VykViewKit@objc(cs)VykFootView(im)initWithFrame:",
+            "mangledName": "$s10VykViewKit0a4FootB0C5frameACSo6CGRectV_tcfc",
+            "moduleName": "VykViewKit",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VykViewKit.VykFootView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VykFootView",
+                    "printedName": "VykViewKit.VykFootView",
+                    "usr": "c:@M@VykViewKit@objc(cs)VykFootView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VykViewKit@objc(cs)VykFootView(im)initWithCoder:",
+            "mangledName": "$s10VykViewKit0a4FootB0C5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "VykViewKit",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VykFootView",
+                "printedName": "VykViewKit.VykFootView",
+                "usr": "c:@M@VykViewKit@objc(cs)VykFootView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VykViewKit@objc(cs)VykFootView(im)initWithFrame:options:",
+            "mangledName": "$s10VykViewKit0a4FootB0C5frame7optionsACSo6CGRectV_SDySSypGSgtcfc",
+            "moduleName": "VykViewKit",
+            "overriding": true,
+            "objc_name": "initWithFrame:options:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "observeValue",
+            "printedName": "observeValue(forKeyPath:of:change:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Foundation.NSKeyValueChangeKey : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Foundation.NSKeyValueChangeKey : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSKeyValueChangeKey",
+                        "printedName": "Foundation.NSKeyValueChangeKey",
+                        "usr": "c:@T@NSKeyValueChangeKey"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UnsafeMutableRawPointer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafeMutableRawPointer",
+                    "printedName": "Swift.UnsafeMutableRawPointer",
+                    "usr": "s:Sv"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VykViewKit@objc(cs)VykFootView(im)observeValueForKeyPath:ofObject:change:context:",
+            "mangledName": "$s10VykViewKit0a4FootB0C12observeValue10forKeyPath2of6change7contextySSSg_ypSgSDySo05NSKeyf6ChangeH0aypGSgSvSgtF",
+            "moduleName": "VykViewKit",
+            "overriding": true,
+            "objc_name": "observeValueForKeyPath:ofObject:change:context:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setShoeDebugMode",
+            "printedName": "setShoeDebugMode(enableDebug:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit0a4FootB0C16setShoeDebugMode06enableG0ySb_tF",
+            "mangledName": "$s10VykViewKit0a4FootB0C16setShoeDebugMode06enableG0ySb_tF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getFeetAvailabilityCounts",
+            "printedName": "getFeetAvailabilityCounts(noFeet:oneFoot:twoFeet:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "paramValueOwnership": "InOut",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "paramValueOwnership": "InOut",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "paramValueOwnership": "InOut",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit0a4FootB0C25getFeetAvailabilityCounts02noF003oneD003twoF0ySiz_SizSiztF",
+            "mangledName": "$s10VykViewKit0a4FootB0C25getFeetAvailabilityCounts02noF003oneD003twoF0ySiz_SizSiztF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "testFunction",
+            "printedName": "testFunction(value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit0a4FootB0C12testFunction5valueySb_tF",
+            "mangledName": "$s10VykViewKit0a4FootB0C12testFunction5valueySb_tF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewLayoutChanged",
+            "printedName": "viewLayoutChanged()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit0a4FootB0C17viewLayoutChangedyyF",
+            "mangledName": "$s10VykViewKit0a4FootB0C17viewLayoutChangedyyF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "PhotoImportWithClosure",
+            "printedName": "PhotoImportWithClosure(fileName:accessConfig:action:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKit.UIImage?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit0a4FootB0C22PhotoImportWithClosure8fileName12accessConfig6actionSbSS_SDySSypGySo7UIImageCSgctF",
+            "mangledName": "$s10VykViewKit0a4FootB0C22PhotoImportWithClosure8fileName12accessConfig6actionSbSS_SDySSypGySo7UIImageCSgctF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "highResSnapShotWithClosure",
+            "printedName": "highResSnapShotWithClosure(width:height:action:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKit.UIImage?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit0a4FootB0C26highResSnapShotWithClosure5width6height6actionSbSi_SiySo7UIImageCSgctF",
+            "mangledName": "$s10VykViewKit0a4FootB0C26highResSnapShotWithClosure5width6height6actionSbSi_SiySo7UIImageCSgctF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadShoeAsset",
+            "printedName": "loadShoeAsset(urlString:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit0a4FootB0C13loadShoeAsset9urlStringySSSg_tF",
+            "mangledName": "$s10VykViewKit0a4FootB0C13loadShoeAsset9urlStringySSSg_tF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setupAssetLoader",
+            "printedName": "setupAssetLoader(viewController:destinationPath:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit0a4FootB0C16setupAssetLoader14viewController15destinationPathySo06UIViewI0C_SStF",
+            "mangledName": "$s10VykViewKit0a4FootB0C16setupAssetLoader14viewController15destinationPathySo06UIViewI0C_SStF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setupFootTracker",
+            "printedName": "setupFootTracker(initConfig:accessConfig:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "vkFootViewDelegate",
+                "printedName": "VykViewKit.vkFootViewDelegate",
+                "usr": "s:10VykViewKit06vkFootB8DelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit0a4FootB0C05setupD7Tracker10initConfig06accessH08delegateSbSDySSypG_AhA02vkdB8Delegate_ptF",
+            "mangledName": "$s10VykViewKit0a4FootB0C05setupD7Tracker10initConfig06accessH08delegateSbSDySSypG_AhA02vkdB8Delegate_ptF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "renderer",
+            "printedName": "renderer(_:updateAtTime:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNSceneRenderer",
+                "printedName": "SceneKit.SCNSceneRenderer",
+                "usr": "c:objc(pl)SCNSceneRenderer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VykViewKit@objc(cs)VykFootView(im)renderer:updateAtTime:",
+            "mangledName": "$s10VykViewKit0a4FootB0C8renderer_12updateAtTimeySo16SCNSceneRenderer_p_SdtF",
+            "moduleName": "VykViewKit",
+            "objc_name": "renderer:updateAtTime:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startFootTracking",
+            "printedName": "startFootTracking()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit0a4FootB0C05startD8TrackingyyF",
+            "mangledName": "$s10VykViewKit0a4FootB0C05startD8TrackingyyF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pauseFootTracking",
+            "printedName": "pauseFootTracking()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit0a4FootB0C05pauseD8TrackingyyF",
+            "mangledName": "$s10VykViewKit0a4FootB0C05pauseD8TrackingyyF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroyFootTracking",
+            "printedName": "destroyFootTracking()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit0a4FootB0C07destroyD8TrackingyyF",
+            "mangledName": "$s10VykViewKit0a4FootB0C07destroyD8TrackingyyF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "vkReady",
+            "printedName": "vkReady(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VykViewKit@objc(cs)VykFootView(im)vkReady:",
+            "mangledName": "$s10VykViewKit0a4FootB0C7vkReadyyySbF",
+            "moduleName": "VykViewKit",
+            "objc_name": "vkReady:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "vkShutdown",
+            "printedName": "vkShutdown(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VykViewKit@objc(cs)VykFootView(im)vkShutdown:",
+            "mangledName": "$s10VykViewKit0a4FootB0C10vkShutdownyySbF",
+            "moduleName": "VykViewKit",
+            "objc_name": "vkShutdown:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "vktEvent",
+            "printedName": "vktEvent(_:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "vkTrackerTag",
+                "printedName": "TrackerSDKv2.vkTrackerTag",
+                "usr": "c:@E@vkTrackerTag"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VykViewKit@objc(cs)VykFootView(im)vktEvent:value:",
+            "mangledName": "$s10VykViewKit0a4FootB0C8vktEvent_5valueySo12vkTrackerTagV_s6UInt32VtF",
+            "moduleName": "VykViewKit",
+            "objc_name": "vktEvent:value:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateCollection",
+            "printedName": "updateCollection(cData:collectionAssetsList:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VykViewKit.CollectionDataGroup?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionDataGroup",
+                    "printedName": "VykViewKit.CollectionDataGroup",
+                    "usr": "s:10VykViewKit19CollectionDataGroupC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[VykViewKit.CollectionDataGroup]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionDataGroup",
+                    "printedName": "VykViewKit.CollectionDataGroup",
+                    "usr": "s:10VykViewKit19CollectionDataGroupC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit0a4FootB0C16updateCollection5cData20collectionAssetsListyAA0fG5GroupCSg_SayAHGtF",
+            "mangledName": "$s10VykViewKit0a4FootB0C16updateCollection5cData20collectionAssetsListyAA0fG5GroupCSg_SayAHGtF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addToCollection",
+            "printedName": "addToCollection(collectionAssetsList:items:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[VykViewKit.CollectionDataGroup]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionDataGroup",
+                    "printedName": "VykViewKit.CollectionDataGroup",
+                    "usr": "s:10VykViewKit19CollectionDataGroupC"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Int]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit0a4FootB0C15addToCollection20collectionAssetsList5itemsySayAA0G9DataGroupCG_SaySiGtF",
+            "mangledName": "$s10VykViewKit0a4FootB0C15addToCollection20collectionAssetsList5itemsySayAA0G9DataGroupCG_SaySiGtF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "MTLStreamStartRecording",
+            "printedName": "MTLStreamStartRecording(videoOutputURLWithPath:videoSettings:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VykViewKit@objc(cs)VykFootView(im)MTLStreamStartRecordingWithVideoOutputURLWithPath:videoSettings:",
+            "mangledName": "$s10VykViewKit0a4FootB0C23MTLStreamStartRecording22videoOutputURLWithPath0H8Settingsy10Foundation3URLV_SDySSypGSgtF",
+            "moduleName": "VykViewKit",
+            "objc_name": "MTLStreamStartRecordingWithVideoOutputURLWithPath:videoSettings:",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "MTLStreamStopRecording",
+            "printedName": "MTLStreamStopRecording(saveVideo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.URL) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VykViewKit@objc(cs)VykFootView(im)MTLStreamStopRecordingWithSaveVideo:",
+            "mangledName": "$s10VykViewKit0a4FootB0C22MTLStreamStopRecording9saveVideoyy10Foundation3URLVc_tF",
+            "moduleName": "VykViewKit",
+            "objc_name": "MTLStreamStopRecordingWithSaveVideo:",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSDKexpiry",
+            "printedName": "getSDKexpiry()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSDate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSDate",
+                    "printedName": "Foundation.NSDate",
+                    "usr": "c:objc(cs)NSDate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit0a4FootB0C12getSDKexpirySo6NSDateCSgyF",
+            "mangledName": "$s10VykViewKit0a4FootB0C12getSDKexpirySo6NSDateCSgyF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@VykViewKit@objc(cs)VykFootView",
+        "mangledName": "$s10VykViewKit0a4FootB0C",
+        "moduleName": "VykViewKit",
+        "intro_iOS": "11.0",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "IBDesignable",
+          "Available",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)SCNView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "SceneKit.SCNView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "vkDownloaderDelegate",
+            "printedName": "vkDownloaderDelegate",
+            "usr": "s:10VykViewKit20vkDownloaderDelegateP",
+            "mangledName": "$s10VykViewKit20vkDownloaderDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VykViewKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "VykViewKit"
+      },
+      {
+        "kind": "Import",
+        "name": "TrackerSDKv2",
+        "printedName": "TrackerSDKv2",
+        "declKind": "Import",
+        "moduleName": "VykViewKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VykingFeetTrackingModel",
+        "printedName": "VykingFeetTrackingModel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "debugEnabled",
+            "printedName": "debugEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10VykViewKit23VykingFeetTrackingModelC12debugEnabledSbvp",
+            "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC12debugEnabledSbvp",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit23VykingFeetTrackingModelC12debugEnabledSbvg",
+                "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC12debugEnabledSbvg",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit23VykingFeetTrackingModelC12debugEnabledSbvs",
+                "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC12debugEnabledSbvs",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit23VykingFeetTrackingModelC12debugEnabledSbvM",
+                "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC12debugEnabledSbvM",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "vykingTracker",
+            "printedName": "vykingTracker",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TrackerSDKv2.vkTracker?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "vkTracker",
+                    "printedName": "TrackerSDKv2.vkTracker",
+                    "usr": "c:objc(cs)vkTracker"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10VykViewKit23VykingFeetTrackingModelC13vykingTrackerSo02vkI0CSgvp",
+            "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC13vykingTrackerSo02vkI0CSgvp",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TrackerSDKv2.vkTracker?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "vkTracker",
+                        "printedName": "TrackerSDKv2.vkTracker",
+                        "usr": "c:objc(cs)vkTracker"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit23VykingFeetTrackingModelC13vykingTrackerSo02vkI0CSgvg",
+                "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC13vykingTrackerSo02vkI0CSgvg",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TrackerSDKv2.vkTracker?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "vkTracker",
+                        "printedName": "TrackerSDKv2.vkTracker",
+                        "usr": "c:objc(cs)vkTracker"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit23VykingFeetTrackingModelC13vykingTrackerSo02vkI0CSgvs",
+                "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC13vykingTrackerSo02vkI0CSgvs",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit23VykingFeetTrackingModelC13vykingTrackerSo02vkI0CSgvM",
+                "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC13vykingTrackerSo02vkI0CSgvM",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "vykingImageRenderer",
+            "printedName": "vykingImageRenderer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VykViewKit.ImageRenderer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageRenderer",
+                    "printedName": "VykViewKit.ImageRenderer",
+                    "usr": "c:objc(cs)ImageRenderer"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10VykViewKit23VykingFeetTrackingModelC19vykingImageRendererSo0iJ0CSgvp",
+            "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC19vykingImageRendererSo0iJ0CSgvp",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "VykViewKit.ImageRenderer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageRenderer",
+                        "printedName": "VykViewKit.ImageRenderer",
+                        "usr": "c:objc(cs)ImageRenderer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit23VykingFeetTrackingModelC19vykingImageRendererSo0iJ0CSgvg",
+                "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC19vykingImageRendererSo0iJ0CSgvg",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "VykViewKit.ImageRenderer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageRenderer",
+                        "printedName": "VykViewKit.ImageRenderer",
+                        "usr": "c:objc(cs)ImageRenderer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit23VykingFeetTrackingModelC19vykingImageRendererSo0iJ0CSgvs",
+                "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC19vykingImageRendererSo0iJ0CSgvs",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit23VykingFeetTrackingModelC19vykingImageRendererSo0iJ0CSgvM",
+                "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC19vykingImageRendererSo0iJ0CSgvM",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mUIinterfaceOrientation",
+            "printedName": "mUIinterfaceOrientation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientation",
+                "printedName": "UIKit.UIInterfaceOrientation",
+                "usr": "c:@E@UIInterfaceOrientation"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10VykViewKit23VykingFeetTrackingModelC23mUIinterfaceOrientationSo011UIInterfaceI0Vvp",
+            "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC23mUIinterfaceOrientationSo011UIInterfaceI0Vvp",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientation",
+                    "printedName": "UIKit.UIInterfaceOrientation",
+                    "usr": "c:@E@UIInterfaceOrientation"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit23VykingFeetTrackingModelC23mUIinterfaceOrientationSo011UIInterfaceI0Vvg",
+                "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC23mUIinterfaceOrientationSo011UIInterfaceI0Vvg",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientation",
+                    "printedName": "UIKit.UIInterfaceOrientation",
+                    "usr": "c:@E@UIInterfaceOrientation"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit23VykingFeetTrackingModelC23mUIinterfaceOrientationSo011UIInterfaceI0Vvs",
+                "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC23mUIinterfaceOrientationSo011UIInterfaceI0Vvs",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit23VykingFeetTrackingModelC23mUIinterfaceOrientationSo011UIInterfaceI0VvM",
+                "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC23mUIinterfaceOrientationSo011UIInterfaceI0VvM",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "AvailabilityCounts",
+            "printedName": "AvailabilityCounts",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Int]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10VykViewKit23VykingFeetTrackingModelC18AvailabilityCountsSaySiGvp",
+            "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC18AvailabilityCountsSaySiGvp",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Int]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit23VykingFeetTrackingModelC18AvailabilityCountsSaySiGvg",
+                "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC18AvailabilityCountsSaySiGvg",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Int]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit23VykingFeetTrackingModelC18AvailabilityCountsSaySiGvs",
+                "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC18AvailabilityCountsSaySiGvs",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit23VykingFeetTrackingModelC18AvailabilityCountsSaySiGvM",
+                "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC18AvailabilityCountsSaySiGvM",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "getObjectAvailabilityCounts",
+            "printedName": "getObjectAvailabilityCounts(noFeet:oneFoot:twoFeet:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "paramValueOwnership": "InOut",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "paramValueOwnership": "InOut",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "paramValueOwnership": "InOut",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit23VykingFeetTrackingModelC27getObjectAvailabilityCounts02noE07oneFoot03twoE0ySiz_SizSiztF",
+            "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC27getObjectAvailabilityCounts02noE07oneFoot03twoE0ySiz_SizSiztF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setRotationCamera",
+            "printedName": "setRotationCamera(newCameraRotationRadians:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit23VykingFeetTrackingModelC17setRotationCamera03newjI7RadiansySf_tF",
+            "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC17setRotationCamera03newjI7RadiansySf_tF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "observeValue",
+            "printedName": "observeValue(forKeyPath:of:change:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Foundation.NSKeyValueChangeKey : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Foundation.NSKeyValueChangeKey : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSKeyValueChangeKey",
+                        "printedName": "Foundation.NSKeyValueChangeKey",
+                        "usr": "c:@T@NSKeyValueChangeKey"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UnsafeMutableRawPointer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafeMutableRawPointer",
+                    "printedName": "Swift.UnsafeMutableRawPointer",
+                    "usr": "s:Sv"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VykViewKit@objc(cs)VykingFeetTrackingModel(im)observeValueForKeyPath:ofObject:change:context:",
+            "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC12observeValue10forKeyPath2of6change7contextySSSg_ypSgSDySo05NSKeyi6ChangeK0aypGSgSvSgtF",
+            "moduleName": "VykViewKit",
+            "overriding": true,
+            "objc_name": "observeValueForKeyPath:ofObject:change:context:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setStaticImageMode",
+            "printedName": "setStaticImageMode(setOrClear:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit23VykingFeetTrackingModelC18setStaticImageMode0H7OrClearySb_tF",
+            "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC18setStaticImageMode0H7OrClearySb_tF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(fromSceneView:usingTracker:useARKit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VykingFeetTrackingModel",
+                "printedName": "VykViewKit.VykingFeetTrackingModel",
+                "usr": "c:@M@VykViewKit@objc(cs)VykingFeetTrackingModel"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNView",
+                "printedName": "SceneKit.SCNView",
+                "usr": "c:objc(cs)SCNView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "vkTracker",
+                "printedName": "TrackerSDKv2.vkTracker",
+                "usr": "c:objc(cs)vkTracker"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10VykViewKit23VykingFeetTrackingModelC09fromSceneB012usingTracker8useARKitACSo7SCNViewC_So02vkK0CSbtcfc",
+            "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC09fromSceneB012usingTracker8useARKitACSo7SCNViewC_So02vkK0CSbtcfc",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VykingFeetTrackingModel",
+                "printedName": "VykViewKit.VykingFeetTrackingModel",
+                "usr": "c:@M@VykViewKit@objc(cs)VykingFeetTrackingModel"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VykViewKit@objc(cs)VykingFeetTrackingModel(im)init",
+            "mangledName": "$s10VykViewKit23VykingFeetTrackingModelCACycfc",
+            "moduleName": "VykViewKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setReflection",
+            "printedName": "setReflection(reflected:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit23VykingFeetTrackingModelC13setReflection9reflectedySb_tF",
+            "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC13setReflection9reflectedySb_tF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateFootNodes",
+            "printedName": "updateFootNodes()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit23VykingFeetTrackingModelC15updateFootNodesyyF",
+            "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC15updateFootNodesyyF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "switchShoes",
+            "printedName": "switchShoes(toPairNamed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit23VykingFeetTrackingModelC11switchShoes11toPairNamedySS_tF",
+            "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC11switchShoes11toPairNamedySS_tF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "selectShoePair",
+            "printedName": "selectShoePair(named:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit23VykingFeetTrackingModelC14selectShoePair5namedySS_tF",
+            "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC14selectShoePair5namedySS_tF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deselectCurrentShoePair",
+            "printedName": "deselectCurrentShoePair()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit23VykingFeetTrackingModelC23deselectCurrentShoePairyyF",
+            "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC23deselectCurrentShoePairyyF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "render",
+            "printedName": "render(_:updateAtTime:withFrameId:viewPortSize:mVkFootDelegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNSceneRenderer",
+                "printedName": "SceneKit.SCNSceneRenderer",
+                "usr": "c:objc(pl)SCNSceneRenderer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VykViewKit.vkFootViewDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "vkFootViewDelegate",
+                    "printedName": "VykViewKit.vkFootViewDelegate",
+                    "usr": "s:10VykViewKit06vkFootB8DelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit23VykingFeetTrackingModelC6render_12updateAtTime11withFrameId12viewPortSize15mVkFootDelegateySo16SCNSceneRenderer_p_Sds6UInt32VSo6CGSizeVAA02vksbT0_pSgtF",
+            "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC6render_12updateAtTime11withFrameId12viewPortSize15mVkFootDelegateySo16SCNSceneRenderer_p_Sds6UInt32VSo6CGSizeVAA02vksbT0_pSgtF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recordFrameSequence",
+            "printedName": "recordFrameSequence(parent:button:frames:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIButton",
+                "printedName": "UIKit.UIButton",
+                "usr": "c:objc(cs)UIButton"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit23VykingFeetTrackingModelC19recordFrameSequence6parent6button6framesySo16UIViewControllerC_So8UIButtonCs5Int32VtF",
+            "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC19recordFrameSequence6parent6button6framesySo16UIViewControllerC_So8UIButtonCs5Int32VtF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Constants",
+            "printedName": "Constants",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "cameraSCNNodeName",
+                "printedName": "cameraSCNNodeName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10VykViewKit23VykingFeetTrackingModelC9ConstantsO17cameraSCNNodeNameSSvpZ",
+                "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC9ConstantsO17cameraSCNNodeNameSSvpZ",
+                "moduleName": "VykViewKit",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10VykViewKit23VykingFeetTrackingModelC9ConstantsO17cameraSCNNodeNameSSvgZ",
+                    "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC9ConstantsO17cameraSCNNodeNameSSvgZ",
+                    "moduleName": "VykViewKit",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "leftFootSCNNodeName",
+                "printedName": "leftFootSCNNodeName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10VykViewKit23VykingFeetTrackingModelC9ConstantsO19leftFootSCNNodeNameSSvpZ",
+                "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC9ConstantsO19leftFootSCNNodeNameSSvpZ",
+                "moduleName": "VykViewKit",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10VykViewKit23VykingFeetTrackingModelC9ConstantsO19leftFootSCNNodeNameSSvgZ",
+                    "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC9ConstantsO19leftFootSCNNodeNameSSvgZ",
+                    "moduleName": "VykViewKit",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "rightFootSCNNodeName",
+                "printedName": "rightFootSCNNodeName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10VykViewKit23VykingFeetTrackingModelC9ConstantsO20rightFootSCNNodeNameSSvpZ",
+                "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC9ConstantsO20rightFootSCNNodeNameSSvpZ",
+                "moduleName": "VykViewKit",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10VykViewKit23VykingFeetTrackingModelC9ConstantsO20rightFootSCNNodeNameSSvgZ",
+                    "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC9ConstantsO20rightFootSCNNodeNameSSvgZ",
+                    "moduleName": "VykViewKit",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:10VykViewKit23VykingFeetTrackingModelC9ConstantsO",
+            "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC9ConstantsO",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@VykViewKit@objc(cs)VykingFeetTrackingModel",
+        "mangledName": "$s10VykViewKit23VykingFeetTrackingModelC",
+        "moduleName": "VykViewKit",
+        "intro_iOS": "11.0",
+        "declAttributes": [
+          "AccessControl",
+          "Available",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VykViewKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "VykViewKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "vkDownloaderDelegate",
+        "printedName": "vkDownloaderDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "updateCollection",
+            "printedName": "updateCollection(cData:collectionAssetsList:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VykViewKit.CollectionDataGroup?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionDataGroup",
+                    "printedName": "VykViewKit.CollectionDataGroup",
+                    "usr": "s:10VykViewKit19CollectionDataGroupC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[VykViewKit.CollectionDataGroup]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionDataGroup",
+                    "printedName": "VykViewKit.CollectionDataGroup",
+                    "usr": "s:10VykViewKit19CollectionDataGroupC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit20vkDownloaderDelegateP16updateCollection5cData20collectionAssetsListyAA0hI5GroupCSg_SayAHGtF",
+            "mangledName": "$s10VykViewKit20vkDownloaderDelegateP16updateCollection5cData20collectionAssetsListyAA0hI5GroupCSg_SayAHGtF",
+            "moduleName": "VykViewKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : VykViewKit.vkDownloaderDelegate>",
+            "sugared_genericSig": "<Self where Self : VykViewKit.vkDownloaderDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addToCollection",
+            "printedName": "addToCollection(collectionAssetsList:items:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[VykViewKit.CollectionDataGroup]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionDataGroup",
+                    "printedName": "VykViewKit.CollectionDataGroup",
+                    "usr": "s:10VykViewKit19CollectionDataGroupC"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Int]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit20vkDownloaderDelegateP15addToCollection20collectionAssetsList5itemsySayAA0I9DataGroupCG_SaySiGtF",
+            "mangledName": "$s10VykViewKit20vkDownloaderDelegateP15addToCollection20collectionAssetsList5itemsySayAA0I9DataGroupCG_SaySiGtF",
+            "moduleName": "VykViewKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : VykViewKit.vkDownloaderDelegate>",
+            "sugared_genericSig": "<Self where Self : VykViewKit.vkDownloaderDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10VykViewKit20vkDownloaderDelegateP",
+        "mangledName": "$s10VykViewKit20vkDownloaderDelegateP",
+        "moduleName": "VykViewKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CollectionState",
+        "printedName": "CollectionState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "Initialised",
+            "printedName": "Initialised",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VykViewKit.CollectionState.Type) -> VykViewKit.CollectionState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionState",
+                    "printedName": "VykViewKit.CollectionState",
+                    "usr": "s:10VykViewKit15CollectionStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VykViewKit.CollectionState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CollectionState",
+                        "printedName": "VykViewKit.CollectionState",
+                        "usr": "s:10VykViewKit15CollectionStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10VykViewKit15CollectionStateO11InitialisedyA2CmF",
+            "mangledName": "$s10VykViewKit15CollectionStateO11InitialisedyA2CmF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PendingProgress",
+            "printedName": "PendingProgress",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VykViewKit.CollectionState.Type) -> VykViewKit.CollectionState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionState",
+                    "printedName": "VykViewKit.CollectionState",
+                    "usr": "s:10VykViewKit15CollectionStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VykViewKit.CollectionState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CollectionState",
+                        "printedName": "VykViewKit.CollectionState",
+                        "usr": "s:10VykViewKit15CollectionStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10VykViewKit15CollectionStateO15PendingProgressyA2CmF",
+            "mangledName": "$s10VykViewKit15CollectionStateO15PendingProgressyA2CmF",
+            "moduleName": "VykViewKit"
+          },
+          {
+            "kind": "Var",
+            "name": "InProgress",
+            "printedName": "InProgress",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VykViewKit.CollectionState.Type) -> VykViewKit.CollectionState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionState",
+                    "printedName": "VykViewKit.CollectionState",
+                    "usr": "s:10VykViewKit15CollectionStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VykViewKit.CollectionState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CollectionState",
+                        "printedName": "VykViewKit.CollectionState",
+                        "usr": "s:10VykViewKit15CollectionStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10VykViewKit15CollectionStateO10InProgressyA2CmF",
+            "mangledName": "$s10VykViewKit15CollectionStateO10InProgressyA2CmF",
+            "moduleName": "VykViewKit"
+          },
+          {
+            "kind": "Var",
+            "name": "FailedToLoad",
+            "printedName": "FailedToLoad",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VykViewKit.CollectionState.Type) -> VykViewKit.CollectionState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionState",
+                    "printedName": "VykViewKit.CollectionState",
+                    "usr": "s:10VykViewKit15CollectionStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VykViewKit.CollectionState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CollectionState",
+                        "printedName": "VykViewKit.CollectionState",
+                        "usr": "s:10VykViewKit15CollectionStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10VykViewKit15CollectionStateO12FailedToLoadyA2CmF",
+            "mangledName": "$s10VykViewKit15CollectionStateO12FailedToLoadyA2CmF",
+            "moduleName": "VykViewKit"
+          },
+          {
+            "kind": "Var",
+            "name": "CompletedLoad",
+            "printedName": "CompletedLoad",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VykViewKit.CollectionState.Type) -> VykViewKit.CollectionState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionState",
+                    "printedName": "VykViewKit.CollectionState",
+                    "usr": "s:10VykViewKit15CollectionStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VykViewKit.CollectionState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CollectionState",
+                        "printedName": "VykViewKit.CollectionState",
+                        "usr": "s:10VykViewKit15CollectionStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10VykViewKit15CollectionStateO13CompletedLoadyA2CmF",
+            "mangledName": "$s10VykViewKit15CollectionStateO13CompletedLoadyA2CmF",
+            "moduleName": "VykViewKit"
+          },
+          {
+            "kind": "Var",
+            "name": "Active",
+            "printedName": "Active",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VykViewKit.CollectionState.Type) -> VykViewKit.CollectionState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionState",
+                    "printedName": "VykViewKit.CollectionState",
+                    "usr": "s:10VykViewKit15CollectionStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VykViewKit.CollectionState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CollectionState",
+                        "printedName": "VykViewKit.CollectionState",
+                        "usr": "s:10VykViewKit15CollectionStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10VykViewKit15CollectionStateO6ActiveyA2CmF",
+            "mangledName": "$s10VykViewKit15CollectionStateO6ActiveyA2CmF",
+            "moduleName": "VykViewKit"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CollectionState",
+                "printedName": "VykViewKit.CollectionState",
+                "usr": "s:10VykViewKit15CollectionStateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CollectionState",
+                "printedName": "VykViewKit.CollectionState",
+                "usr": "s:10VykViewKit15CollectionStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit15CollectionStateO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s10VykViewKit15CollectionStateO2eeoiySbAC_ACtFZ",
+            "moduleName": "VykViewKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10VykViewKit15CollectionStateO9hashValueSivp",
+            "mangledName": "$s10VykViewKit15CollectionStateO9hashValueSivp",
+            "moduleName": "VykViewKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit15CollectionStateO9hashValueSivg",
+                "mangledName": "$s10VykViewKit15CollectionStateO9hashValueSivg",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit15CollectionStateO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s10VykViewKit15CollectionStateO4hash4intoys6HasherVz_tF",
+            "moduleName": "VykViewKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10VykViewKit15CollectionStateO",
+        "mangledName": "$s10VykViewKit15CollectionStateO",
+        "moduleName": "VykViewKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FootDataStruct",
+        "printedName": "FootDataStruct",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FootDataStruct",
+                "printedName": "VykViewKit.FootDataStruct",
+                "usr": "s:10VykViewKit14FootDataStructV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10VykViewKit14FootDataStructV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10VykViewKit14FootDataStructV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "VykViewKit",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit14FootDataStructV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10VykViewKit14FootDataStructV6encode2toys7Encoder_p_tKF",
+            "moduleName": "VykViewKit",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10VykViewKit14FootDataStructV",
+        "mangledName": "$s10VykViewKit14FootDataStructV",
+        "moduleName": "VykViewKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CollectionDataGroup",
+        "printedName": "CollectionDataGroup",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "idxItem",
+            "printedName": "idxItem",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10VykViewKit19CollectionDataGroupC7idxItemSivp",
+            "mangledName": "$s10VykViewKit19CollectionDataGroupC7idxItemSivp",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit19CollectionDataGroupC7idxItemSivg",
+                "mangledName": "$s10VykViewKit19CollectionDataGroupC7idxItemSivg",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit19CollectionDataGroupC7idxItemSivs",
+                "mangledName": "$s10VykViewKit19CollectionDataGroupC7idxItemSivs",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit19CollectionDataGroupC7idxItemSivM",
+                "mangledName": "$s10VykViewKit19CollectionDataGroupC7idxItemSivM",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shortName",
+            "printedName": "shortName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10VykViewKit19CollectionDataGroupC9shortNameSSvp",
+            "mangledName": "$s10VykViewKit19CollectionDataGroupC9shortNameSSvp",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit19CollectionDataGroupC9shortNameSSvg",
+                "mangledName": "$s10VykViewKit19CollectionDataGroupC9shortNameSSvg",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit19CollectionDataGroupC9shortNameSSvs",
+                "mangledName": "$s10VykViewKit19CollectionDataGroupC9shortNameSSvs",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit19CollectionDataGroupC9shortNameSSvM",
+                "mangledName": "$s10VykViewKit19CollectionDataGroupC9shortNameSSvM",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sneakerKitRef",
+            "printedName": "sneakerKitRef",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10VykViewKit19CollectionDataGroupC07sneakerC3RefSSSgvp",
+            "mangledName": "$s10VykViewKit19CollectionDataGroupC07sneakerC3RefSSSgvp",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit19CollectionDataGroupC07sneakerC3RefSSSgvg",
+                "mangledName": "$s10VykViewKit19CollectionDataGroupC07sneakerC3RefSSSgvg",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit19CollectionDataGroupC07sneakerC3RefSSSgvs",
+                "mangledName": "$s10VykViewKit19CollectionDataGroupC07sneakerC3RefSSSgvs",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit19CollectionDataGroupC07sneakerC3RefSSSgvM",
+                "mangledName": "$s10VykViewKit19CollectionDataGroupC07sneakerC3RefSSSgvM",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "loadPath",
+            "printedName": "loadPath",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10VykViewKit19CollectionDataGroupC8loadPath10Foundation3URLVSgvp",
+            "mangledName": "$s10VykViewKit19CollectionDataGroupC8loadPath10Foundation3URLVSgvp",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit19CollectionDataGroupC8loadPath10Foundation3URLVSgvg",
+                "mangledName": "$s10VykViewKit19CollectionDataGroupC8loadPath10Foundation3URLVSgvg",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit19CollectionDataGroupC8loadPath10Foundation3URLVSgvs",
+                "mangledName": "$s10VykViewKit19CollectionDataGroupC8loadPath10Foundation3URLVSgvs",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit19CollectionDataGroupC8loadPath10Foundation3URLVSgvM",
+                "mangledName": "$s10VykViewKit19CollectionDataGroupC8loadPath10Foundation3URLVSgvM",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cState",
+            "printedName": "cState",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CollectionState",
+                "printedName": "VykViewKit.CollectionState",
+                "usr": "s:10VykViewKit15CollectionStateO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10VykViewKit19CollectionDataGroupC6cStateAA0dG0Ovp",
+            "mangledName": "$s10VykViewKit19CollectionDataGroupC6cStateAA0dG0Ovp",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionState",
+                    "printedName": "VykViewKit.CollectionState",
+                    "usr": "s:10VykViewKit15CollectionStateO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit19CollectionDataGroupC6cStateAA0dG0Ovg",
+                "mangledName": "$s10VykViewKit19CollectionDataGroupC6cStateAA0dG0Ovg",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionState",
+                    "printedName": "VykViewKit.CollectionState",
+                    "usr": "s:10VykViewKit15CollectionStateO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit19CollectionDataGroupC6cStateAA0dG0Ovs",
+                "mangledName": "$s10VykViewKit19CollectionDataGroupC6cStateAA0dG0Ovs",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit19CollectionDataGroupC6cStateAA0dG0OvM",
+                "mangledName": "$s10VykViewKit19CollectionDataGroupC6cStateAA0dG0OvM",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "footData",
+            "printedName": "footData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VykViewKit.FootDataStruct?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FootDataStruct",
+                    "printedName": "VykViewKit.FootDataStruct",
+                    "usr": "s:10VykViewKit14FootDataStructV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10VykViewKit19CollectionDataGroupC04footE0AA04FootE6StructVSgvp",
+            "mangledName": "$s10VykViewKit19CollectionDataGroupC04footE0AA04FootE6StructVSgvp",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "VykViewKit.FootDataStruct?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FootDataStruct",
+                        "printedName": "VykViewKit.FootDataStruct",
+                        "usr": "s:10VykViewKit14FootDataStructV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit19CollectionDataGroupC04footE0AA04FootE6StructVSgvg",
+                "mangledName": "$s10VykViewKit19CollectionDataGroupC04footE0AA04FootE6StructVSgvg",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "VykViewKit.FootDataStruct?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FootDataStruct",
+                        "printedName": "VykViewKit.FootDataStruct",
+                        "usr": "s:10VykViewKit14FootDataStructV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit19CollectionDataGroupC04footE0AA04FootE6StructVSgvs",
+                "mangledName": "$s10VykViewKit19CollectionDataGroupC04footE0AA04FootE6StructVSgvs",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit19CollectionDataGroupC04footE0AA04FootE6StructVSgvM",
+                "mangledName": "$s10VykViewKit19CollectionDataGroupC04footE0AA04FootE6StructVSgvM",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10VykViewKit19CollectionDataGroupC",
+        "mangledName": "$s10VykViewKit19CollectionDataGroupC",
+        "moduleName": "VykViewKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DownloadManager",
+        "printedName": "DownloadManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "collectionAssetsList",
+            "printedName": "collectionAssetsList",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[VykViewKit.CollectionDataGroup]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionDataGroup",
+                    "printedName": "VykViewKit.CollectionDataGroup",
+                    "usr": "s:10VykViewKit19CollectionDataGroupC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10VykViewKit15DownloadManagerC20collectionAssetsListSayAA19CollectionDataGroupCGvp",
+            "mangledName": "$s10VykViewKit15DownloadManagerC20collectionAssetsListSayAA19CollectionDataGroupCGvp",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[VykViewKit.CollectionDataGroup]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CollectionDataGroup",
+                        "printedName": "VykViewKit.CollectionDataGroup",
+                        "usr": "s:10VykViewKit19CollectionDataGroupC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit15DownloadManagerC20collectionAssetsListSayAA19CollectionDataGroupCGvg",
+                "mangledName": "$s10VykViewKit15DownloadManagerC20collectionAssetsListSayAA19CollectionDataGroupCGvg",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[VykViewKit.CollectionDataGroup]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CollectionDataGroup",
+                        "printedName": "VykViewKit.CollectionDataGroup",
+                        "usr": "s:10VykViewKit19CollectionDataGroupC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit15DownloadManagerC20collectionAssetsListSayAA19CollectionDataGroupCGvs",
+                "mangledName": "$s10VykViewKit15DownloadManagerC20collectionAssetsListSayAA19CollectionDataGroupCGvs",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10VykViewKit15DownloadManagerC20collectionAssetsListSayAA19CollectionDataGroupCGvM",
+                "mangledName": "$s10VykViewKit15DownloadManagerC20collectionAssetsListSayAA19CollectionDataGroupCGvM",
+                "moduleName": "VykViewKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(idStr:baseDestinationFilePath:vController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DownloadManager",
+                "printedName": "VykViewKit.DownloadManager",
+                "usr": "c:@M@VykViewKit@objc(cs)DownloadManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10VykViewKit15DownloadManagerC5idStr23baseDestinationFilePath11vControllerACSS_SSSo06UIViewL0Ctcfc",
+            "mangledName": "$s10VykViewKit15DownloadManagerC5idStr23baseDestinationFilePath11vControllerACSS_SSSo06UIViewL0Ctcfc",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setDelegate",
+            "printedName": "setDelegate(delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VykViewKit.vkDownloaderDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "vkDownloaderDelegate",
+                    "printedName": "VykViewKit.vkDownloaderDelegate",
+                    "usr": "s:10VykViewKit20vkDownloaderDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit15DownloadManagerC11setDelegate8delegateyAA012vkDownloaderG0_pSg_tF",
+            "mangledName": "$s10VykViewKit15DownloadManagerC11setDelegate8delegateyAA012vkDownloaderG0_pSg_tF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateLables",
+            "printedName": "updateLables(cData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VykViewKit.CollectionDataGroup?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionDataGroup",
+                    "printedName": "VykViewKit.CollectionDataGroup",
+                    "usr": "s:10VykViewKit19CollectionDataGroupC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit15DownloadManagerC12updateLables5cDatayAA010CollectionH5GroupCSg_tF",
+            "mangledName": "$s10VykViewKit15DownloadManagerC12updateLables5cDatayAA010CollectionH5GroupCSg_tF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "jsonLoadComponents",
+            "printedName": "jsonLoadComponents(urlString:retryCounter:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit15DownloadManagerC18jsonLoadComponents9urlString12retryCounterSbSS_SitF",
+            "mangledName": "$s10VykViewKit15DownloadManagerC18jsonLoadComponents9urlString12retryCounterSbSS_SitF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteAssetSet",
+            "printedName": "deleteAssetSet(itemIdx:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit15DownloadManagerC14deleteAssetSet7itemIdxSbSi_tF",
+            "mangledName": "$s10VykViewKit15DownloadManagerC14deleteAssetSet7itemIdxSbSi_tF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeNewJsonScene",
+            "printedName": "makeNewJsonScene(cAsset:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SCNScene",
+                "printedName": "SceneKit.SCNScene",
+                "usr": "c:objc(cs)SCNScene"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CollectionDataGroup",
+                "printedName": "VykViewKit.CollectionDataGroup",
+                "usr": "s:10VykViewKit19CollectionDataGroupC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit15DownloadManagerC16makeNewJsonScene6cAssetSo8SCNSceneCAA19CollectionDataGroupC_tF",
+            "mangledName": "$s10VykViewKit15DownloadManagerC16makeNewJsonScene6cAssetSo8SCNSceneCAA19CollectionDataGroupC_tF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "filePickAssets",
+            "printedName": "filePickAssets(pickedUrls:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.URL]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit15DownloadManagerC14filePickAssets10pickedUrlsySay10Foundation3URLVG_tF",
+            "mangledName": "$s10VykViewKit15DownloadManagerC14filePickAssets10pickedUrlsySay10Foundation3URLVG_tF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DownloadManager",
+                "printedName": "VykViewKit.DownloadManager",
+                "usr": "c:@M@VykViewKit@objc(cs)DownloadManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VykViewKit@objc(cs)DownloadManager(im)init",
+            "mangledName": "$s10VykViewKit15DownloadManagerCACycfc",
+            "moduleName": "VykViewKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@VykViewKit@objc(cs)DownloadManager",
+        "mangledName": "$s10VykViewKit15DownloadManagerC",
+        "moduleName": "VykViewKit",
+        "intro_iOS": "11.0",
+        "declAttributes": [
+          "AccessControl",
+          "Available",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 65313,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 65323,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 66166,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 66263,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
+      "kind": "FloatLiteral",
+      "offset": 66462,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 66495,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 66527,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 66610,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 66700,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 66808,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 66910,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 66954,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 67005,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
+      "kind": "StringLiteral",
+      "offset": 96476,
+      "length": 21,
+      "value": "\"ShoeScene.scnassets\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
+      "kind": "StringLiteral",
+      "offset": 96608,
+      "length": 15,
+      "value": "\"MainScene.scn\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
+      "kind": "StringLiteral",
+      "offset": 96668,
+      "length": 7,
+      "value": "\"Shoe1\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
+      "kind": "Dictionary",
+      "offset": 106660,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
+      "kind": "StringLiteral",
+      "offset": 106741,
+      "length": 8,
+      "value": "\"config\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
+      "kind": "Array",
+      "offset": 106751,
+      "length": 29,
+      "value": "[\"Version\"]"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
+      "kind": "StringLiteral",
+      "offset": 106862,
+      "length": 8,
+      "value": "\"config\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
+      "kind": "Array",
+      "offset": 106872,
+      "length": 25,
+      "value": "[\"stats\"]"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykingFeetTrackingModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 508,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykingFeetTrackingModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 556,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykingFeetTrackingModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 673,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykingFeetTrackingModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 1169,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykingFeetTrackingModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 1296,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykingFeetTrackingModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 1368,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykingFeetTrackingModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1556,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykingFeetTrackingModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 1631,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykingFeetTrackingModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 1643,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykingFeetTrackingModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 1948,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykingFeetTrackingModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2005,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykingFeetTrackingModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 2065,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykingFeetTrackingModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2230,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykingFeetTrackingModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2240,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykingFeetTrackingModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2321,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykingFeetTrackingModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3769,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykingFeetTrackingModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3870,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykingFeetTrackingModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4011,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykingFeetTrackingModel.swift",
+      "kind": "StringLiteral",
+      "offset": 601,
+      "length": 23,
+      "value": "\"VykViewKit.VykingFeetTrackingModel\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykingFeetTrackingModel.swift",
+      "kind": "StringLiteral",
+      "offset": 53756,
+      "length": 8,
+      "value": "\"Camera\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykingFeetTrackingModel.swift",
+      "kind": "StringLiteral",
+      "offset": 53816,
+      "length": 10,
+      "value": "\"LeftFoot\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykingFeetTrackingModel.swift",
+      "kind": "StringLiteral",
+      "offset": 53878,
+      "length": 11,
+      "value": "\"RightFoot\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykingFeetTrackingModel.swift",
+      "kind": "StringLiteral",
+      "offset": 53941,
+      "length": 13,
+      "value": "\"LegOccluder\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykingFeetTrackingModel.swift",
+      "kind": "StringLiteral",
+      "offset": 54006,
+      "length": 15,
+      "value": "\"AnkleOccluder\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykingFeetTrackingModel.swift",
+      "kind": "StringLiteral",
+      "offset": 54073,
+      "length": 15,
+      "value": "\"PlaneOccluder\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykingFeetTrackingModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54174,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykingFeetTrackingModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54177,
+      "length": 2,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykingFeetTrackingModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54181,
+      "length": 2,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykingFeetTrackingModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54334,
+      "length": 2,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykingFeetTrackingModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54338,
+      "length": 2,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykingFeetTrackingModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54342,
+      "length": 2,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/DownloadManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1087,
+      "length": 13,
+      "value": "\"translation\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/DownloadManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1087,
+      "length": 13,
+      "value": "\"translation\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/DownloadManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1616,
+      "length": 13,
+      "value": "\"translation\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/DownloadManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1616,
+      "length": 13,
+      "value": "\"translation\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/DownloadManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1953,
+      "length": 9,
+      "value": "\"apparel\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/DownloadManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1953,
+      "length": 9,
+      "value": "\"apparel\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/DownloadManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2403,
+      "length": 16,
+      "value": "\"environmentMap\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/DownloadManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2447,
+      "length": 15,
+      "value": "\"intensity_ios\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/DownloadManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2403,
+      "length": 16,
+      "value": "\"environmentMap\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/DownloadManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2447,
+      "length": 15,
+      "value": "\"intensity_ios\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/DownloadManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3522,
+      "length": 15,
+      "value": "\"VykViewKit.DownloadManager\""
+    }
+  ]
+}
