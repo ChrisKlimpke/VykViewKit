@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/VykViewKit-Swift.h</key>
 		<data>
-		mmDlI6sV0GEBqXsRue7z+mXuPIU=
+		tbTRpu3onyl0WqK84Fzkm3rO3hY=
 		</data>
 		<key>Headers/VykViewKit.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		lvTeV+4w/QrSx+/oRZkYZPyvQQ8=
+		fOe9R3uCgklOlBeZL9i8KO9IOho=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		zvEY+i4NBN2zS3NEPNz+BgdlIWc=
+		Q3Nz++sd8nsyFwc7T0JvRGHIYYc=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		zvEY+i4NBN2zS3NEPNz+BgdlIWc=
+		Q3Nz++sd8nsyFwc7T0JvRGHIYYc=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4LQtQNAMQ5r4URGLmS5XA+9pLm0=
+		yHmsqftZDa5bVV3k1fUPUzQxd/s=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		lvTeV+4w/QrSx+/oRZkYZPyvQQ8=
+		fOe9R3uCgklOlBeZL9i8KO9IOho=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		getmhlEo/ohZIWJG2rDvb5oEVIY=
+		MO3/sfZfcCem0wCIRcoa5YyiFC4=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		getmhlEo/ohZIWJG2rDvb5oEVIY=
+		MO3/sfZfcCem0wCIRcoa5YyiFC4=
 		</data>
 		<key>Modules/VykViewKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+LsAYhddTlfS9Dc33pnuND/W8ZA=
+		VUKQ22q9FkXHVQ3WCQou7OmpxnI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,11 +71,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mmDlI6sV0GEBqXsRue7z+mXuPIU=
+			tbTRpu3onyl0WqK84Fzkm3rO3hY=
 			</data>
 			<key>hash2</key>
 			<data>
-			xy3xZE3z9izXBtdzxp0PhOJunicFU6hQxT0dW+5M1iM=
+			rmcMtcfFPF2iYXI1SM7e95JCqrM6WIyqAslPZ2ZAcMc=
 			</data>
 		</dict>
 		<key>Headers/VykViewKit.h</key>
@@ -93,22 +93,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lvTeV+4w/QrSx+/oRZkYZPyvQQ8=
+			fOe9R3uCgklOlBeZL9i8KO9IOho=
 			</data>
 			<key>hash2</key>
 			<data>
-			7++uO65vb08LP9l6lCDL87WhC4O2EiANMeYVgbYbtSY=
+			AoYgwHSsxz1RR2PaUGhZyczndB3juhZd/zolaIVsgSc=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zvEY+i4NBN2zS3NEPNz+BgdlIWc=
+			Q3Nz++sd8nsyFwc7T0JvRGHIYYc=
 			</data>
 			<key>hash2</key>
 			<data>
-			5wHDI+ByEC1KRC9ck1R+pJkABPQa1fiYajaecsAzHLs=
+			Mv350EqS4codE7smaQKkfd8yASxuidlhPL9PKiMfVu0=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -126,44 +126,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zvEY+i4NBN2zS3NEPNz+BgdlIWc=
+			Q3Nz++sd8nsyFwc7T0JvRGHIYYc=
 			</data>
 			<key>hash2</key>
 			<data>
-			5wHDI+ByEC1KRC9ck1R+pJkABPQa1fiYajaecsAzHLs=
+			Mv350EqS4codE7smaQKkfd8yASxuidlhPL9PKiMfVu0=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4LQtQNAMQ5r4URGLmS5XA+9pLm0=
+			yHmsqftZDa5bVV3k1fUPUzQxd/s=
 			</data>
 			<key>hash2</key>
 			<data>
-			KXszIcREimiAE+IWFMRpqeOHoWQ/k5pgbZLUnww68l0=
+			nwSNnZJIKfvG0OnDo+hUhxorjNiQIhWEZIxVwmQz4sg=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lvTeV+4w/QrSx+/oRZkYZPyvQQ8=
+			fOe9R3uCgklOlBeZL9i8KO9IOho=
 			</data>
 			<key>hash2</key>
 			<data>
-			7++uO65vb08LP9l6lCDL87WhC4O2EiANMeYVgbYbtSY=
+			AoYgwHSsxz1RR2PaUGhZyczndB3juhZd/zolaIVsgSc=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			getmhlEo/ohZIWJG2rDvb5oEVIY=
+			MO3/sfZfcCem0wCIRcoa5YyiFC4=
 			</data>
 			<key>hash2</key>
 			<data>
-			uWoIgAW+BnYWjoqb2mx6foR46LvX1DYwyMWkAXHL0eI=
+			3TjW9yD3HcX0Py1XpwFQl1ZgwBvk+L4ZZfOxyktf/4M=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -181,22 +181,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			getmhlEo/ohZIWJG2rDvb5oEVIY=
+			MO3/sfZfcCem0wCIRcoa5YyiFC4=
 			</data>
 			<key>hash2</key>
 			<data>
-			uWoIgAW+BnYWjoqb2mx6foR46LvX1DYwyMWkAXHL0eI=
+			3TjW9yD3HcX0Py1XpwFQl1ZgwBvk+L4ZZfOxyktf/4M=
 			</data>
 		</dict>
 		<key>Modules/VykViewKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+LsAYhddTlfS9Dc33pnuND/W8ZA=
+			VUKQ22q9FkXHVQ3WCQou7OmpxnI=
 			</data>
 			<key>hash2</key>
 			<data>
-			e1gXe+PUnoyUTdvaaS0j1bAqbUuTxAMToojk8GOCgOc=
+			lQ+BwBLvpU+BQwyqcRYwxQ/SuxcbqExM6bhpbb7ET3I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
