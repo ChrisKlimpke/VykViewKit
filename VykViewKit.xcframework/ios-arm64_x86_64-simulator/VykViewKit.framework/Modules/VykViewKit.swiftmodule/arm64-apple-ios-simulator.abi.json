@@ -458,6 +458,42 @@
           },
           {
             "kind": "Function",
+            "name": "VykFeetSendExternalVideoCapture",
+            "printedName": "VykFeetSendExternalVideoCapture(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ARKit.ARFrame?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ARFrame",
+                    "printedName": "ARKit.ARFrame",
+                    "usr": "c:objc(cs)ARFrame"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10VykViewKit0a4FootB0C0A28FeetSendExternalVideoCaptureySiSo7ARFrameCSgF",
+            "mangledName": "$s10VykViewKit0a4FootB0C0A28FeetSendExternalVideoCaptureySiSo7ARFrameCSgF",
+            "moduleName": "VykViewKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setShoeDebugMode",
             "printedName": "setShoeDebugMode(enableDebug:)",
             "children": [
@@ -1286,9 +1322,10 @@
           "Available",
           "ObjC"
         ],
-        "superclassUsr": "c:objc(cs)SCNView",
+        "superclassUsr": "c:objc(cs)ARSCNView",
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
+          "ARKit.ARSCNView",
           "SceneKit.SCNView",
           "UIKit.UIView",
           "UIKit.UIResponder",
@@ -4209,147 +4246,147 @@
     {
       "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
       "kind": "IntegerLiteral",
-      "offset": 65313,
+      "offset": 1128,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
       "kind": "IntegerLiteral",
-      "offset": 65323,
+      "offset": 1138,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
       "kind": "IntegerLiteral",
-      "offset": 66166,
+      "offset": 1981,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
       "kind": "BooleanLiteral",
-      "offset": 66263,
+      "offset": 2078,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
       "kind": "FloatLiteral",
-      "offset": 66462,
+      "offset": 2277,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
       "kind": "IntegerLiteral",
-      "offset": 66495,
+      "offset": 2310,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
       "kind": "BooleanLiteral",
-      "offset": 66527,
+      "offset": 2342,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
       "kind": "BooleanLiteral",
-      "offset": 66610,
+      "offset": 2425,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
       "kind": "IntegerLiteral",
-      "offset": 66700,
+      "offset": 2515,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
       "kind": "BooleanLiteral",
-      "offset": 66808,
+      "offset": 2623,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
       "kind": "IntegerLiteral",
-      "offset": 66910,
+      "offset": 2725,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
       "kind": "IntegerLiteral",
-      "offset": 66954,
+      "offset": 2769,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
       "kind": "BooleanLiteral",
-      "offset": 67005,
+      "offset": 2820,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
       "kind": "StringLiteral",
-      "offset": 96476,
+      "offset": 32295,
       "length": 21,
       "value": "\"ShoeScene.scnassets\""
     },
     {
       "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
       "kind": "StringLiteral",
-      "offset": 96608,
+      "offset": 32427,
       "length": 15,
       "value": "\"MainScene.scn\""
     },
     {
       "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
       "kind": "StringLiteral",
-      "offset": 96668,
+      "offset": 32487,
       "length": 7,
       "value": "\"Shoe1\""
     },
     {
       "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
       "kind": "Dictionary",
-      "offset": 106660,
+      "offset": 42478,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
       "kind": "StringLiteral",
-      "offset": 106741,
+      "offset": 42559,
       "length": 8,
       "value": "\"config\""
     },
     {
       "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
       "kind": "Array",
-      "offset": 106751,
+      "offset": 42569,
       "length": 29,
       "value": "[\"Version\"]"
     },
     {
       "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
       "kind": "StringLiteral",
-      "offset": 106862,
+      "offset": 42680,
       "length": 8,
       "value": "\"config\""
     },
     {
       "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingViewKit\/VykingViewKit\/VykFootView\/VykFootView.swift",
       "kind": "Array",
-      "offset": 106872,
+      "offset": 42690,
       "length": 25,
       "value": "[\"stats\"]"
     },
