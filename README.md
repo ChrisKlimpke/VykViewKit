@@ -13,6 +13,7 @@ Version 1.x.x is the non ARKit build set
 Version 1.0.8 is the VykViewKit built using Xcode12
 Version 1.0.11 is the VykViewKit built 2022-06-02R
 Version 1.0.12 is the VykViewKit built 2022-09-28R
+Version 1.0.14 is the VykViewKit built 2022-09-29R
 
 
 Version 2.x.x is the ARKit build set
